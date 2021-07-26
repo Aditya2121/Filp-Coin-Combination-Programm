@@ -114,4 +114,5 @@ echo "TTH = $TTH%"
 TTT=`awk "BEGIN {print (${Singlet[TTT]}/50)*100}"`
 echo "TTT = $TTT%"
 
+sort -nr <(printf "%s\n" "${Singlet[@]}")
 
